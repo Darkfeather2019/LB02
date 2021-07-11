@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="./bilder/Denver-Broncos-logo.png">
+
+    <title>Denver Broncos | Team</title>
+
+    <link href="./bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="./custom.css" rel="stylesheet" type="text/css" />
+    <link href="./font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="./sweetalert2.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar-right">
+        <a href="index.html"><img src="Bilder/Denver-Broncos-logo.png" alt="Logo"></a>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          |
+          <li>
+            <a href="./videos.html">Videos</a>
+          </li>
+          |
+          <li  class="active">
+            <a href="./team.html">Team</a>
+          </li>
+          |
+          <li>
+            <a href="./login.html">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="black">
+        <h1>Team</h1>
+      </section>
+      <div id="gallery">
+  
+        <img src="./bilder/drewlock.jpg">
+        <img src="./bilder/jerryjeudy.jpg">
+        <img src="./bilder/kareemjackson.jpg">
+        <img src="./bilder/noahfant.jpg">
+        <img src="./bilder/bradleychubb.jpg">
+        <img src="./bilder/timpatrick.jpg">
+        <img src="./bilder/brycecallahan.jpg">
+        <img src="./bilder/shelbyharris.jpg">
+        <img src="./bilder/vonmiller.jpg">
+        <img src="./bilder/melvingordon.jpg">
+        <img src="./bilder/courtlandsutton.jpg">
+        <img src="./bilder/jamarjohnson.jpg">
+        <img src="./bilder/alexanderjohnson.jpg">
+        <img src="./bilder/justinsimmons.jpg">
+        <img src="./bilder/kjhamler.jpg">
+        <img src="./bilder/malikreed.jpg">
+        <img src="./bilder/patsurtain.jpg">
+        <img src="./bilder/brettrypien.jpg">
+        <img src="./bilder/roycefreeman.jpg">
+        <img src="./bilder/joseyjewell.jpg">
+       </div>
+       
+
+    </main>
+    <footer class="modal-footer">
+      <a> Denver Broncos </a>
+    </footer>
+  </body>
+</html>
+
+<script>function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}</script>
